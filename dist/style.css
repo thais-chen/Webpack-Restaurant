@@ -1,0 +1,62 @@
+@font-face { font-family: TwentyOne; src: url('../src/TwentyOne.otf')}
+@font-face { font-family: Lemon; src: url('../src/Lemon.ttf')}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: bisque;
+    height: 100%;
+}
+body{
+   background-image: url('https://previews.123rf.com/images/indigolotos/indigolotos1403/indigolotos140301823/26553292-chocolate-sprinkles-close-up-background-macro.jpg');
+    
+}
+ul li {
+    font-family: TwentyOne;
+    font-size: 35px;
+    margin:auto;
+    height: 100%;
+
+   
+    
+}
+ul li:hover{
+    background-color:  beige;
+    width: inherit;
+    border: bisque;
+   
+}
+h1{
+    text-align: center;
+    color: black;
+    font-family: Lemon;
+    font-size: 65px;
+    text-shadow: bisque;
+}
+ img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 5% 5% 5% 5%;
+
+
+ }
+#tab_content{
+    width: 50%;
+    margin:auto;
+    padding:30px;
+ 
+    font-family: TwentyOne;
+    font-size: 25px;
+}
+
+#tab_content form{
+    display:  block;
+    
+}
+#tab_content input {
+    width: 200px;
+    margin-left: 20px;
+}
